@@ -106,6 +106,39 @@ Use the following examples of input validation for the success and error message
 </div>
 ```
 
+## Input with icon
+
+```svelte example hideScript class="space-y-6"
+<script>
+  import { FloatingLabelInput, Button, CloseButton } from 'flowbite-svelte';
+</script>
+
+<div class="space-y-2">
+  <FloatingLabelInput type="email" label="Small input - left icon" size="small">
+    <svg slot="left" aria-hidden="true" class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" /><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" /></svg>
+  </FloatingLabelInput>
+</div>
+
+<div class="space-y-2">
+  <FloatingLabelInput type="email" label="Default input - right icon">
+    <svg slot="right" aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" /><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" /></svg>
+  </FloatingLabelInput>
+</div>
+
+<div class="space-y-2">
+  <FloatingLabelInput type="email" style="filled" label="Filled input - right icon">
+    <svg slot="right" aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" /><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" /></svg>
+  </FloatingLabelInput>
+</div>
+
+<div class="space-y-2">
+  <FloatingLabelInput type="email" style="outlined" label="Outlined input - both icons">
+    <svg slot="left" aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" /><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" /></svg>
+    <CloseButton slot="right" />
+  </FloatingLabelInput>
+</div>
+```
+
 ## Sizes
 
 Use the small and default sizes of the floating label input fields from the following example.
