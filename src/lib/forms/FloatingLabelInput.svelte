@@ -60,7 +60,7 @@
     filled:
       'absolute pointer-events-none text-sm duration-300 transform -translate-y-4 scale-75 z-10 origin-[0] ml-2.5 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4',
     outlined:
-      'absolute pointer-events-none text-sm duration-300 transform -translate-y-4 scale-75 z-10 origin-[0] ml-1.5 peer-focus:bg-white dark:peer-focus:bg-gray-900 px-2 peer-focus:px-1 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-5',
+      'absolute pointer-events-none text-sm duration-300 transform -translate-y-5 scale-75 z-10 origin-[0] ml-1.5 px-1 bg-white dark:bg-gray-900 px-1 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-5 peer-placeholder-shown:bg-none',
     standard:
       'absolute pointer-events-none text-sm duration-300 transform -translate-y-6 scale-75 -z-10 origin-[0] ml-2.5 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6'
   };
