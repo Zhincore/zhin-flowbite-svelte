@@ -27,8 +27,8 @@
       default: 'px-2.5 pb-2.5 pt-4'
     },
     standard: {
-      small: 'py-2 px-0',
-      default: 'py-2.5 px-0'
+      small: 'px-2.5 py-2',
+      default: 'px-2.5 py-2.5'
     }
   };
 
@@ -58,11 +58,11 @@
 
   const labelClasses = {
     filled:
-      'absolute pointer-events-none text-sm duration-300 transform -translate-y-4 scale-75 z-10 origin-[0] left-2.5 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4',
+      'absolute pointer-events-none text-sm duration-300 transform -translate-y-4 scale-75 z-10 origin-[0] ml-2.5 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4',
     outlined:
-      'absolute pointer-events-none text-sm duration-300 transform -translate-y-4 scale-75 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4',
+      'absolute pointer-events-none text-sm duration-300 transform -translate-y-4 scale-75 z-10 origin-[0] ml-1.5 peer-focus:bg-white dark:peer-focus:bg-gray-900 px-2 peer-focus:px-1 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-5',
     standard:
-      'absolute pointer-events-none text-sm duration-300 transform -translate-y-6 scale-75 -z-10 origin-[0] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6'
+      'absolute pointer-events-none text-sm duration-300 transform -translate-y-6 scale-75 -z-10 origin-[0] ml-2.5 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6'
   };
 
   const inputColorClasses = {
